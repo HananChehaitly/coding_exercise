@@ -1,0 +1,3 @@
+SELECT name, temp.count FROM categories, 
+(SELECT cat_id,count(cat_id) as count FROM categories GROUP BY cat_id) as temp 
+WHERE id = temp.cat_id;
