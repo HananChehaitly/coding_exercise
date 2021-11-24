@@ -1,0 +1,23 @@
+<?php
+
+# array of integers unsorted return second smallest number in this array
+
+
+function sum($a){
+    
+    if(count($a)== 0){
+        return 0;
+    }
+    $sum = 0;
+    foreach($a as $key=>$value){
+        if($key=='price'){
+            $sum+= $value;
+        }
+        if(is_array($value)){
+            $sum += sum($value);
+        }
+    }
+    return $sum;
+}
+
+print(sum(['prop1'=>['price'=>23], 'prop2'=>['price'=>12,'prop4'=>['price'=>12,['prop5'=>['price'=>34]]]],'prop3'=>'hanan']));
