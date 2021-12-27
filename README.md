@@ -10,9 +10,9 @@ N=81 should output 999999999
 
 Solved in **Python**.
 
-## recursion_exercise
+## recursion_problem
 
-Given a Json object with unknown length or exact form but can contain Json objects and in some of them we might find an attribute price.
-Sum up the prices in the given object.
+Given a associative arrray with unknown length or exact form but can contain associative arrrays as values and in some of them we might find a "price" key.
+Sum up the prices in the given array.
 
 Solved in **PHP**.
