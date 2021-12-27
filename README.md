@@ -13,6 +13,7 @@ Solved in **Python**.
 ## recursion_problem
 
 Given a associative arrray with unknown length or exact form but can contain associative arrrays as values and in some of them we might find a "price" key.
+
 Sum up the prices in the given array.
 
 Solved in **PHP**.
